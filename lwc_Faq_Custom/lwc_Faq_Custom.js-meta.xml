@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="Lwc_Faq_Custom">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>ZT FAQ</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+
+     <targetConfigs>  
+        <targetConfig targets="lightningCommunity__Default">
+        <property name="label" type="String" default="click" label="Enter your Question"></property>
+        <property name="labelAnswer" type="String" default="click" label="Enter your Answer"></property>
+        <property name="backgroundColor" type="Color"  label="Background  Color" default="rgba(0, 255, 255, 1)"></property>
+
+
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
